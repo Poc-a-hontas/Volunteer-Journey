@@ -1,0 +1,234 @@
+h1, h4
+{
+  font-family: Dosis;
+}
+p{
+  font-family: SourceSansPro;
+}
+
+body{
+  background-color: #104f9e;
+}
+/* HEADER */
+.header{
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-desktop{
+  display: none;
+}
+
+.logo{
+  width: 80px;
+  padding: 0.6rem;
+}
+.menu{
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.container-heading{
+  position: relative;
+  text-align: center;
+}
+
+.brush-stroke{
+  position: relative;
+  margin-top: 6rem;
+  width: 500px;
+  align-self: center;
+}
+
+  .heading{
+    position: relative;
+    margin-top: -5.5rem;
+  }
+  
+  .heading-desktop{
+    display: none;
+  }
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 400px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    }
+
+  /* INDICATOR */
+  .indicator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    width:"450px";
+    height: auto;
+  }
+
+/* INFO COLORFUL BOXES */
+  .welcome-pack{
+    width: 100%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fad91f;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .sign-up{
+    width: 100%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: #a0d683;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+
+  .volunteer-hub{
+    width: 100%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ea80a8;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    justify-content: center;
+  }
+  .link2{
+    text-decoration: none;
+    color: #104f9e;
+  }
+  .info-text{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+ }
+  .icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  /* FOOTER */
+  .footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    position: relative;
+    width: 100%;
+   bottom: 0%;
+   left: 0%;
+  }
+
+  .footer-icon{
+    padding: 5px;
+  }
+
+/* MEDIA QUERIES */
+  @media only screen and (max-width: 500px) {
+    .brush-stroke{
+      width: 380px;
+    }
+    .icon{
+      width: 40px;
+      height: 40px;
+    }
+    .heading{
+      font-size: 1.7rem;
+    }
+    .container {
+      width: 350px;
+      }
+    .indicator{
+      width: 400px;
+  }
+  }
+  @media only screen and (min-width: 800px) {
+    .header{
+      display: none;
+    }
+    .header-desktop{
+      position: absolute;
+      width: 100%;
+      top: 0%;
+      left: 0%;
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .link{
+      text-decoration: none;
+      color: #104f9e;
+      font-family: SourceSansPro;
+      padding: 20px;
+    }
+    .cta{
+      background-color: #ea80a8;
+      color: white;
+      font-family: SourceSansPro;
+      border: none;
+      border-radius: 6px;
+      padding: 10px;
+      font-size: 1rem;
+      margin-right: 1.5rem;
+      margin-left: 1.5rem;
+    }
+    .cta:hover {
+      transform: scale(1.1);
+    }
+    .indicator{
+      width: 500px;
+    }
+    .brush-stroke{
+      display: none;
+    }
+    .heading{
+      display: none;
+    }
+    .heading-desktop{
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      text-align: center;
+    }
+    .container{
+      width: 100%;
+      border-radius: 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .info{
+      display: flex;
+      flex-direction: row;
+    }
+  }
